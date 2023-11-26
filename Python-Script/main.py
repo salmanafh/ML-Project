@@ -7,7 +7,7 @@ from pathlib import Path
 from helper import create_byage_df, create_bygender_df, create_bystate_df, create_daily_order_df, create_rmf_df, create_sum_order_items_df
 sns.set_style("dark")
 
-data_dir = Path("../Datasets/all_data.csv").parent.resolve() / "all_data.csv"
+data_dir = Path("all_data.csv").parent/ "all_data.csv"
 
 st.set_page_config(
     page_title="Sales Performance Dashboard",
