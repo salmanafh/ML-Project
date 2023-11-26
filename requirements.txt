@@ -6,3 +6,5 @@ pandas==2.0.3
 seaborn==0.13.0
 streamlit==1.28.2
 babel==2.13.1
+
+python -m streamlit run your_script.py
